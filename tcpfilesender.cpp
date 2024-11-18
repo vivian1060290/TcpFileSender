@@ -3,7 +3,7 @@
 TcpFileSender::TcpFileSender(QWidget *parent)
     : QDialog(parent), totalBytes(0), bytesWritten(0), bytesToWrite(0), loadSize(1024 * 4)
 {
-    setWindowTitle(QStringLiteral("檔案傳送"));
+    setWindowTitle(QStringLiteral("(煩ㄟ)檔案傳送"));
 
     ipLineEdit = new QLineEdit(this);
     portLineEdit = new QLineEdit(this);
